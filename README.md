@@ -90,6 +90,37 @@ http://localhost:8081/swagger-ui.html
 ### Example Response
 ![Swagger Response](response.jpg)
 
+###Assumptions & Limitations
+
+Authentication is not implemented (for demo purposes).
+
+Some endpoints may return mock or averaged data.
+
+###Design Decisions
+
+- Spring Boot for fast REST development and Swagger integration.
+
+- Modular architecture separating controllers, services, and repositories.
+
+- Maven wrapper ensures consistent builds across environments.
+
+- Docker support for containerized deployment.
+
+### Production-Readiness Considerations
+
+- Implement authentication and authorization.
+
+- Use environment variables for sensitive credentials.
+
+- Add logging, monitoring, and error handling.
+
+- Include unit and integration tests.
+
+- Consider container orchestration (Docker/Kubernetes) for scalability.
+
+- Include proper database
+  
+
 
 
 
