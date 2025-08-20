@@ -90,13 +90,13 @@ http://localhost:8081/swagger-ui.html
 ### Example Response
 ![Swagger Response](response.jpg)
 
-###Assumptions & Limitations
+### Assumptions & Limitations
 
 Authentication is not implemented (for demo purposes).
 
 Some endpoints may return mock or averaged data.
 
-###Design Decisions
+### Design Decisions
 
 - Spring Boot for fast REST development and Swagger integration.
 
