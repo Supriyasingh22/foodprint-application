@@ -57,3 +57,28 @@ A lightweight RESTful API built with Java and Spring Boot, designed to estimate 
    ```bash
    git clone https://github.com/Supriyasingh22/foodprint-application.git
    cd foodprint-application
+
+2. Configure Your API Key
+
+Before running the application, make sure to set your API key using one of the following methods:
+
+- **In `application.properties`**  
+  ```properties
+  OPENAI_API_KEY=your_actual_api_key_here
+you can use : app.openai.apiKey=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
+
+### Build and Run the Application
+Use the Maven wrapper to compile and start the application:
+  ```bash
+  ./mvnw clean package
+  ./mvnw spring-boot:run
+
+### Access the API & Swagger UI
+
+Once the application is running, you can interact with it:
+
+- **API Base URL:** `http://localhost:8080`
+- **Swagger Documentation:** `http://localhost:8080/swagger-ui.html`
+
+
+
