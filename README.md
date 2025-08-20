@@ -85,10 +85,10 @@ http://localhost:8081/swagger-ui.html
 ```
 
 ### Example Request
-![Swagger Request](D:\Downloads\response.jpg)
+![Swagger Request](request.jpg)
 
 ### Example Response
-![Swagger Response](D:\Downloads\request.jpg)
+![Swagger Response](response.jpg)
 
 
 
