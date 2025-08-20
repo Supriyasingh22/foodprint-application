@@ -12,8 +12,7 @@ A lightweight RESTful API built with Java and Spring Boot, designed to estimate 
 - [Tech Stack](#tech-stack)  
 - [Getting Started](#getting-started)  
   - [Prerequisites](#prerequisites)  
-  - [Running Locally](#running-locally)  
-  - [Running via Docker](#running-via-docker)  
+  - [Running Locally](#running-locally) 
 - [Configuration](#configuration)  
 - [API Usage](#api-usage)  
   - [Example Requests & Responses](#example-requests--responses)  
@@ -67,18 +66,43 @@ Before running the application, make sure to set your API key using one of the f
   OPENAI_API_KEY=your_actual_api_key_here
 you can use : app.openai.apiKey=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
 
-### Build and Run the Application
-Use the Maven wrapper to compile and start the application:
-  ```bash
-  ./mvnw clean package
-  ./mvnw spring-boot:run
 
-### Access the API & Swagger UI
+###Configuration 
+Before running the application, ensure the required configuration values are set:
+```API Keys
+app.openai.apiKey=YOUR_API_KEY_HERE
 
-Once the application is running, you can interact with it:
+```
+```Server Port
+server.port=8081
+```
+###API Usage 
+```API Base URL
+http://localhost:8081/
+```
+```Swagger Documentation
+http://localhost:8081/swagger-ui.html
+```
 
-- **API Base URL:** `http://localhost:8080`
-- **Swagger Documentation:** `http://localhost:8080/swagger-ui.html`
+### Example Request
+![Swagger Request](D:\Downloads\response.jpg)
+
+### Example Response
+![Swagger Response](D:\Downloads\request.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
